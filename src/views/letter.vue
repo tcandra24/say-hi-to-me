@@ -1,11 +1,11 @@
 <template>
-  <div class="max-w-xl bg-[#f9f9f9] rounded-lg text-center align-middle flex items-center p-5 flex-col gap-5 shadow-lg">
+  <div class="max-w-xl bg-[#f9f9f9] rounded-lg text-center align-middle flex items-center py-5 px-7 flex-col gap-5 shadow-lg">
     <div class="flex text-gray-300 items-center gap-3">
       <hr class="w-12 h-0.5 rounded-sm border-0 bg-gray-300" />
       <p class="tangerine-bold text-3xl">Quote</p>
       <hr class="w-12 h-0.5 rounded-sm border-0 bg-gray-300" />
     </div>
-    <p class="tangerine-bold lg:text-[4rem] text-[3rem]">"{{ searchLetter && searchLetter.text }}"</p>
+    <p class="tangerine-italic lg:text-[4rem] text-[3rem]">{{ searchLetter && searchLetter.text }}</p>
   </div>
 </template>
 

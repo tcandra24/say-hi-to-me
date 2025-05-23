@@ -27,6 +27,12 @@ body {
   font-style: normal;
 }
 
+.tangerine-italic {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: italic;
+}
+
 .wrapper {
   height: 200px;
   width: 300px;
