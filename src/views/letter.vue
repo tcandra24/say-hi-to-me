@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <p class="tangerine-regular">{{ searchLetter && searchLetter.text }}</p>
+  <div class="w-auto bg-[#f9f9f9] rounded-lg h-96 text-center align-middle flex items-center">
+    <p class="tangerine-regular text-[4rem]">{{ searchLetter && searchLetter.text }}</p>
   </div>
 </template>
 
