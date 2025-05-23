@@ -8,7 +8,11 @@
 import letterJson from "../data/letter.json";
 import { ref, onMounted } from "vue";
 
-const searchLetter = ref({});
+interface Letter {
+  text: string;
+}
+
+const searchLetter = ref<Letter>({});
 
 onMounted(() => {
   searchLetter.value = letterJson[Math.floor(Math.random() * letterJson.length)];
