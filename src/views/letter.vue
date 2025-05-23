@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="tangerine-regular">{{ searchLetter.text }}</p>
+    <p class="tangerine-regular">{{ searchLetter && searchLetter.text }}</p>
   </div>
 </template>
 
