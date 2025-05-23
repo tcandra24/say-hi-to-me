@@ -1,6 +1,9 @@
 <template>
-  <div class="w-auto bg-[#f9f9f9] rounded-lg h-96 text-center align-middle flex items-center">
-    <p class="tangerine-regular text-[4rem]">{{ searchLetter && searchLetter.text }}</p>
+  <div class="max-w-xl bg-[#f9f9f9] rounded-lg h-96 text-center align-middle flex items-center p-5 flex-col gap-5">
+    <div class="flex">
+      <p class="tangerine-bold text-3xl">Quote</p>
+    </div>
+    <p class="tangerine-bold text-[4rem]">"{{ searchLetter && searchLetter.text }}"</p>
   </div>
 </template>
 
