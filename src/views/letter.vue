@@ -12,7 +12,7 @@ interface Letter {
   text: string;
 }
 
-const searchLetter = ref<Letter>({});
+const searchLetter = ref<Letter>();
 
 onMounted(() => {
   searchLetter.value = letterJson[Math.floor(Math.random() * letterJson.length)];
