@@ -6,13 +6,16 @@
 }
 
 body {
+  background-color: #f3dfc8;
+}
+
+.container-envelope {
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: sans-serif;
-  background-color: #f3dfc8;
 }
 
 .tangerine-regular {
@@ -31,6 +34,20 @@ body {
   font-family: "Tangerine", cursive;
   font-weight: 700;
   font-style: italic;
+}
+
+.rubik-regular {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-bold {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .wrapper {
