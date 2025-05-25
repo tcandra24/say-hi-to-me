@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-envelope">
     <div class="wrapper shadow-lg">
       <div class="lid one"></div>
       <div class="lid two"></div>

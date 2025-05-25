@@ -13,7 +13,7 @@ import { HeartIcon } from "@heroicons/vue/24/outline";
         </ul>
       </nav>
     </header>
-    <main class="container-envelope">
+    <main>
       <router-view v-slot="{ Component }">
         <transition name="fade" mode="out-in">
           <component :is="Component" :key="$route.fullPath" />
